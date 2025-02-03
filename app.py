@@ -78,7 +78,7 @@ with chat_container:
                 display_text_with_animation(message["content"])
 
 # Chat input
-user_query = st.chat_input("Message ...")
+user_query = st.chat_input(" Message . . . ")
 
 # If a suggestion was selected, use it as the input
 if "user_input" in st.session_state:
